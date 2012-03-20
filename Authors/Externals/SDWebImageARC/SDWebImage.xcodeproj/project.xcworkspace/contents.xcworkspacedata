@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Superquotes.xcodeproj">
+      location = "self:SDWebImage.xcodeproj">
    </FileRef>
 </Workspace>

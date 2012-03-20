@@ -117,14 +117,14 @@
 		9E22FD3314ED62900071BE05 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 		9E5358CE14F2B99B00E8B561 /* AppNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNotifications.h; sourceTree = "<group>"; };
 		9E5358CF14F2B99B00E8B561 /* AppNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNotifications.m; sourceTree = "<group>"; };
-		9E58D5C314EC086900863593 /* Employees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Employees.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E58D5C314EC086900863593 /* superquotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superquotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E58D5C714EC086900863593 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E58D5C914EC086900863593 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E58D5CB14EC086900863593 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E58D5CF14EC086900863593 /* Employees-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Employees-Info.plist"; sourceTree = "<group>"; };
+		9E58D5CF14EC086900863593 /* Superquotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Superquotes-Info.plist"; sourceTree = "<group>"; };
 		9E58D5D114EC086900863593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E58D5D314EC086900863593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E58D5D514EC086900863593 /* Employees-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Employees-Prefix.pch"; sourceTree = "<group>"; };
+		9E58D5D514EC086900863593 /* Superquotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Superquotes-Prefix.pch"; sourceTree = "<group>"; };
 		9E58D5DA14EC086900863593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9E58D5DD14EC086900863593 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9E58D5EB14EC0AEF00863593 /* EmployeesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesAppDelegate.h; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 		9E58D5B814EC086900863593 = {
 			isa = PBXGroup;
 			children = (
-				9E58D5CD14EC086900863593 /* Employees */,
+				9E58D5CD14EC086900863593 /* Superquotes */,
 				9E58D5C614EC086900863593 /* Frameworks */,
 				9E58D5C414EC086900863593 /* Products */,
 			);
@@ -265,7 +265,7 @@
 		9E58D5C414EC086900863593 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E58D5C314EC086900863593 /* Employees.app */,
+				9E58D5C314EC086900863593 /* superquotes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9E58D5CD14EC086900863593 /* Employees */ = {
+		9E58D5CD14EC086900863593 /* Superquotes */ = {
 			isa = PBXGroup;
 			children = (
 				5A9AFEEF14EC8D7E005D0B8F /* Model */,
@@ -295,16 +295,17 @@
 				9E58D5F514EC0B5200863593 /* Resources */,
 				9E58D5CE14EC086900863593 /* Supporting Files */,
 			);
-			path = Employees;
+			name = Superquotes;
+			path = Authors;
 			sourceTree = "<group>";
 		};
 		9E58D5CE14EC086900863593 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9E58D5CF14EC086900863593 /* Employees-Info.plist */,
+				9E58D5CF14EC086900863593 /* Superquotes-Info.plist */,
 				9E58D5D014EC086900863593 /* InfoPlist.strings */,
 				9E58D5D314EC086900863593 /* main.m */,
-				9E58D5D514EC086900863593 /* Employees-Prefix.pch */,
+				9E58D5D514EC086900863593 /* Superquotes-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -376,9 +377,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E58D5C214EC086900863593 /* Employees */ = {
+		9E58D5C214EC086900863593 /* Superquotes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E58D5E714EC086900863593 /* Build configuration list for PBXNativeTarget "Employees" */;
+			buildConfigurationList = 9E58D5E714EC086900863593 /* Build configuration list for PBXNativeTarget "Superquotes" */;
 			buildPhases = (
 				9E58D5BF14EC086900863593 /* Sources */,
 				9E58D5C014EC086900863593 /* Frameworks */,
@@ -388,9 +389,9 @@
 			);
 			dependencies = (
 			);
-			name = Employees;
+			name = Superquotes;
 			productName = Employees;
-			productReference = 9E58D5C314EC086900863593 /* Employees.app */;
+			productReference = 9E58D5C314EC086900863593 /* superquotes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -400,9 +401,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = codeswimmer;
+				ORGANIZATIONNAME = luizfernandodias;
 			};
-			buildConfigurationList = 9E58D5BD14EC086900863593 /* Build configuration list for PBXProject "Employees" */;
+			buildConfigurationList = 9E58D5BD14EC086900863593 /* Build configuration list for PBXProject "Superquotes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -420,7 +421,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				9E58D5C214EC086900863593 /* Employees */,
+				9E58D5C214EC086900863593 /* Superquotes */,
 			);
 		};
 /* End PBXProject section */
@@ -529,7 +530,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -544,6 +546,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -555,6 +558,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -573,10 +577,12 @@
 		9E58D5E814EC086900863593 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Employees/Employees-Prefix.pch";
-				INFOPLIST_FILE = "Employees/Employees-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Authors/Superquotes-Prefix.pch";
+				INFOPLIST_FILE = "Authors/Superquotes-Info.plist";
+				PRODUCT_NAME = superquotes;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -584,10 +590,12 @@
 		9E58D5E914EC086900863593 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Employees/Employees-Prefix.pch";
-				INFOPLIST_FILE = "Employees/Employees-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Authors/Superquotes-Prefix.pch";
+				INFOPLIST_FILE = "Authors/Superquotes-Info.plist";
+				PRODUCT_NAME = superquotes;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -595,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E58D5BD14EC086900863593 /* Build configuration list for PBXProject "Employees" */ = {
+		9E58D5BD14EC086900863593 /* Build configuration list for PBXProject "Superquotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E58D5E514EC086900863593 /* Debug */,
@@ -604,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E58D5E714EC086900863593 /* Build configuration list for PBXNativeTarget "Employees" */ = {
+		9E58D5E714EC086900863593 /* Build configuration list for PBXNativeTarget "Superquotes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E58D5E814EC086900863593 /* Debug */,
