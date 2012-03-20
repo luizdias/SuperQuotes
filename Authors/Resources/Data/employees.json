@@ -2325,9 +2325,11 @@
   },
   {
     "title": "Twi'lek Jedi Knight",
+    "title": "Estou testando este texto",
     "height": "1.7 meters",
     "species": "Twi'lek",
     "thumbnailUrl": "http://www.starwars.com/img/explore/encyclopedia/characters/aaylasecura_thumb.jpg",
+    "thumbnailUrl": "http://b.vimeocdn.com/ps/271/153/2711539_300.jpg",
     "vehicle": "",
     "weapon": "Lightsaber",
     "name": "Aayla Secura ",
